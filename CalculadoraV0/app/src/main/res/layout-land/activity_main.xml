@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:textSize="@android:dimen/app_icon_size"
+        android:textStyle="bold"
+        android:gravity="right"/>
+
+
+    <!-- Block First Buttom -->
+    <LinearLayout
+        android:id="@+id/blockFirstButtom"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="53dp">
+
+        <Button
+            android:background="@color/simbolsButtomBlack"
+            android:id="@+id/clearButton"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:onClick="onclickButton"
+            android:textStyle="bold"
+            android:text="@string/clearButton" />
+
+        <Button
+            android:background="@color/simbolsButtomBlack"
+            android:id="@+id/negativeSimbolButton"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:text="@string/negativeSimbolButton" />
+
+        <Button
+            android:background="@color/simbolsButtomBlack"
+            android:id="@+id/porcentageSimbolButton"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:text="@string/porcentageSimbolButton" />
+
+        <Button
+            android:id="@+id/divideSimbolButton"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:background="@color/simbolsButtomOrange"
+            android:onClick="onclickButton"
+            android:textStyle="bold"
+            android:text="@string/divideSimbolButton" />
+
+    </LinearLayout>
+
+    <!-- Block Second Buttom -->
+    <LinearLayout
+        android:id="@+id/blockSecondButtom"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="53dp">
+
+        <Button
+            android:background="@color/numericButtom"
+            android:id="@+id/numericButton7"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:onClick="onclickButton"
+            android:textStyle="bold"
+            android:text="@string/numericButton7" />
+
+        <Button
+            android:background="@color/numericButtom"
+            android:id="@+id/numericButton8"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:onClick="onclickButton"
+            android:textStyle="bold"
+            android:text="@string/numericButton8" />
+
+        <Button
+            android:background="@color/numericButtom"
+            android:id="@+id/numericButton9"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:onClick="onclickButton"
+            android:textStyle="bold"
+            android:text="@string/numericButton9" />
+
+        <Button
+            android:id="@+id/multiplySimbolButton"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:background="@color/simbolsButtomOrange"
+            android:onClick="onclickButton"
+            android:textStyle="bold"
+            android:text="@string/multiplySimbolButton" />
+
+    </LinearLayout>
+
+    <!-- Block Third Buttom -->
+    <LinearLayout
+        android:id="@+id/blockThirdButtom"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="53dp">
+
+        <Button
+            android:background="@color/numericButtom"
+            android:id="@+id/numericButton4"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:onClick="onclickButton"
+            android:textStyle="bold"
+            android:text="@string/numericButton4" />
+
+        <Button
+            android:background="@color/numericButtom"
+            android:id="@+id/numericButton5"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:onClick="onclickButton"
+            android:textStyle="bold"
+            android:text="@string/numericButton5" />
+
+
+
+        <Button
+            android:background="@color/numericButtom"
+            android:id="@+id/numericButton6"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:onClick="onclickButton"
+            android:textStyle="bold"
+            android:text="@string/numericButton6" />
+
+        <Button
+            android:id="@+id/deductSimbolButton"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:background="@color/simbolsButtomOrange"
+            android:onClick="onclickButton"
+            android:textStyle="bold"
+            android:text="@string/deductSimbolButton" />
+
+    </LinearLayout>
+
+    <!-- Block Flourth Buttom -->
+    <LinearLayout
+        android:id="@+id/blockFlourthButtom"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp">
+
+        <Button
+            android:background="@color/numericButtom"
+            android:id="@+id/numericButton1"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:onClick="onclickButton"
+            android:textStyle="bold"
+            android:text="@string/numericButton1" />
+
+        <Button
+            android:background="@color/numericButtom"
+            android:id="@+id/numericButton2"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:onClick="onclickButton"
+            android:textStyle="bold"
+            android:text="@string/numericButton2" />
+
+        <Button
+            android:background="@color/numericButtom"
+            android:id="@+id/numericButton3"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:onClick="onclickButton"
+            android:textStyle="bold"
+            android:text="@string/numericButton3" />
+
+        <Button
+            android:id="@+id/plusSimbolButton"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:background="@color/simbolsButtomOrange"
+            android:onClick="onclickButton"
+            android:textStyle="bold"
+            android:text="@string/plusSimbolButton" />
+
+    </LinearLayout>
+
+    <!-- Block Fifth Buttom -->
+    <LinearLayout
+        android:id="@+id/blockFifthButtom"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp">
+
+        <Button
+            android:id="@+id/numericButton0"
+            android:layout_width="350dp"
+            android:layout_height="match_parent"
+            android:background="@color/numericButtom"
+            android:onClick="onclickButton"
+            android:textStyle="bold"
+            android:text="@string/numericButton0" />
+
+        <Button
+            android:background="@color/numericButtom"
+            android:id="@+id/decimalSimbolButton"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:onClick="onclickButton"
+            android:textStyle="bold"
+            android:text="@string/decimalSimbolButton" />
+
+        <Button
+            android:background="@color/simbolsButtomOrange"
+            android:id="@+id/ResultSimbolButton"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:onClick="onclickButton"
+            android:textStyle="bold"
+            android:text="@string/ResultSimbolButton" />
+    </LinearLayout>
+
+
+</LinearLayout>

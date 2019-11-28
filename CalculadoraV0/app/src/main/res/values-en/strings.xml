@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calculator</string>
+
+    <string name="numericButton0">0</string>
+    <string name="numericButton1">1</string>
+    <string name="numericButton2">2</string>
+    <string name="numericButton3">3</string>
+    <string name="numericButton4">4</string>
+    <string name="numericButton5">5</string>
+    <string name="numericButton6">6</string>
+    <string name="numericButton7">7</string>
+    <string name="numericButton8">8</string>
+    <string name="numericButton9">9</string>
+
+    <!-- Simbols buttons -->
+    <string name="decimalSimbolButton">.</string>
+    <string name="ResultSimbolButton">=</string>
+    <string name="deductSimbolButton">-</string>
+    <string name="plusSimbolButton">+</string>
+    <string name="divideSimbolButton">/</string>
+    <string name="porcentageSimbolButton">%</string>
+    <string name="negativeSimbolButton">-/+</string>
+    <string name="multiplySimbolButton">X</string>
+    <string name="clearButton">AC</string>
+
+</resources>

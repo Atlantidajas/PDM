@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="colorPrimaryDark">#3F51B5</color>
+    <color name="colorAccent">#A8677D</color>
+    <color name="TextCalculator">#DADADA</color>
+
+
+
+    <!-- Buttom Style -->
+    <color name="numericButtom">#5F6062</color>
+    <color name="simbolsButtomBlack">#3F4143</color>
+    <color name="simbolsButtomOrange">#FF9F0C</color>
+
+</resources>
